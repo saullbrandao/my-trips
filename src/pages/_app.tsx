@@ -7,7 +7,11 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Boilerplate</title>
+        <title>My Trips</title>
+        <meta
+          name="description"
+          content="A simple project to show my favorite sports in the world."
+        />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
