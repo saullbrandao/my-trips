@@ -18,7 +18,7 @@ export const Heading = styled.h1`
 
 export const Body = styled.div`
   p {
-    font-size: var(--medium);
-    line-height: var(--medium);
+    font-size: 2rem;
+    line-height: 1.5;
   }
 `
