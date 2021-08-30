@@ -1,25 +1,23 @@
 import { AppProps } from 'next/dist/shared/lib/router/router'
 import NextNProgress from 'nextjs-progressbar'
 import Head from 'next/head'
+import SEO from '../../next-seo-config'
 
 import GlobalStyles from 'styles/global'
+import { DefaultSeo } from 'next-seo'
 
 function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>My Trips</title>
         <link
           rel="stylesheet"
           href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
           integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
           crossOrigin=""
         />
-        <meta
-          name="description"
-          content="A simple project to show my favorite sports in the world."
-        />
       </Head>
+      <DefaultSeo {...SEO} />
       <GlobalStyles />
       <NextNProgress
         color="#f231a5"
