@@ -19,7 +19,7 @@ const HomeTemplate = ({ places }: MapProps) => (
           'A simple project to show in a map my favorite places in the world.',
         images: [
           {
-            url: 'https://my-trips-saullbrandao.vercel.app/',
+            url: 'https://my-trips-saullbrandao.vercel.app/cover.png',
             width: 1280,
             height: 720,
             alt: 'My Trips'
