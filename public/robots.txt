@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://my-trips-saullbrandao.vercel.app/
+
+# Sitemaps
+Sitemap: https://my-trips-saullbrandao.vercel.app/sitemap.xml
