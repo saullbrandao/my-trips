@@ -10,6 +10,10 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
+        <meta
+          name="google-site-verification"
+          content="7bmmiewlLmTvUWv7fIjyMqGkzD2Nb8tqEc-apL1WthM"
+        />
         <link
           rel="stylesheet"
           href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
