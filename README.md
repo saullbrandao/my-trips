@@ -1,34 +1,101 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://my-trips-saullbrandao.vercel.app/">
+    <img src="https://img.icons8.com/fluency/48/000000/map-marker.png"/>
+  </a>
 
-## Getting Started
+  <p align="center">
+    <a href="https://www.twitter.com/saullbrandao/">
+      <img alt="Saull Brandão" src="https://img.shields.io/badge/-saullbrandao-1DA1F2?style=flat&logo=Twitter&logoColor=white" />
+    </a>
+    <a href="https://www.linkedin.com/in/saullbrandao/">
+      <img alt="Saull Brandão" src="https://img.shields.io/badge/-saullbrandao-0A66C2?style=flat&logo=Linkedin&logoColor=white" />
+    </a>
+    <a href="./LICENSE">
+      <img alt="License MIT" src="https://img.shields.io/github/license/saullbrandao/my-trips" />
+    </a>
+    <a href="https://github.com/saullbrandao/my-trips/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/saullbrandao/my-trips" />
+    </a>
+  </p>
+  <h2 align="center">My Trips</h2>
 
-First, run the development server:
+  <p align="center">
+    A simple project to show in a map my favorite places in the world.
+    <br />
+  </p>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
+# :bookmark_tabs: Table of Contents
+
+- [About the project](#about-the-project)
+- [Technologies](#technologies)
+- [Getting started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Issues](#issues)
+- [Contributing](#contributing)
+- [License](#license)
+
+# :page_with_curl: About the Project
+
+![my-trips](https://raw.githubusercontent.com/saullbrandao/my-trips/main/public/cover.png)
+
+- Display my favorite places on a map
+- Clicking on a marker opens the place's page with more information
+
+# :computer: Technologies
+
+- [React](https://github.com/facebook/react)
+- [Next.js](https://github.com/vercel/next.js/)
+- [Styled Components](https://github.com/styled-components/styled-components)
+- [Leaflet](https://github.com/Leaflet/Leaflet)
+- [GraphQL](https://github.com/graphql/graphql-js)
+
+# :rocket: Getting Started
+
+## Prerequisites
+
+You will need to install Node.js and yarn
+
+- [Node.js](https://nodejs.org/en/download/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install)
+
+## Installation
+
+```sh
+# Clone Repository
+$ git clone https://github.com/saullbrandao/my-trips.git && cd my-trips
+
+# Install Dependencies
+$ yarn
+
+# Fill .env.local file with YOUR environment variables, according to .env.example file.
+
+# Run Application
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This starts the development server on http://localhost:3000/
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# :interrobang: Issues
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Create a <a href="https://github.com/saullbrandao/my-trips/issues">new issue
+report</a>, it will be an honor to be able to help you solve and further improve
+our application.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# :mailbox: Contributing
 
-## Learn More
+- Fork this repository;
+- Create a new branch to develop your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: my new feature'`;
+- Push to your branch: `git push origin my-feature`.
+- Open a Pull Request
 
-To learn more about Next.js, take a look at the following resources:
+# :lock: License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more
+information. Made by [Saull Brandão](https://www.linkedin.com/in/saullbrandao/).
+<br/> <br/>
+<a href="https://icons8.com/icon/ZPLpfsKE1OLu/map-marker">Map Marker icon by Icons8</a>
